@@ -13,7 +13,8 @@
     "title": "delectus aut autem",
     "completed": false
 }]
-
+console.log(arrayOfTodos[0].userId) // =>14
+console.log(arrayOfTodos[1].userId) // =>20
 const fetchTodos = () => {
     fetch('https://jsonplaceholder.typicode.com/todos')
     .then( (response) => response.json())
